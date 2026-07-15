@@ -1,0 +1,28 @@
+{
+  "id": "mirage-t-smoke-window-sandbags",
+  "assetId": "de_mirage/vip-smoke-sandbags",
+  "map": "de_mirage",
+  "side": "T",
+  "type": "烟",
+  "name": "沙袋 VIP 烟",
+  "landSpot": "Window / 警家窗口",
+  "throwSpot": "T 出生点沙袋",
+  "throwInput": "left",
+  "throwMethod": ["蹲下投掷"],
+  "throwMotion": "static",
+  "difficulty": "简单",
+  "tolerance": "高",
+  "tick": "通用",
+  "scenario": "从沙袋位置封锁 VIP 窗口，为队伍争夺中路控制。",
+  "searchAliases": ["VIP烟", "Window烟", "沙袋VIP烟", "Sandbag", "sandbag", "Window", "vip"],
+  "worldPos": { "x": 343.317078, "y": -621.63208, "z": -99.035645 },
+  "throwAngles": { "pitch": -2.854286, "yaw": 177.91217, "roll": 0 },
+  "landWorldPos": { "x": -1189.499634, "y": -630.647217, "z": -104 },
+  "landAngles": { "pitch": 0.660104, "yaw": -0.225719, "roll": 0 },
+  "files": {
+    "position": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/vip-window/sandbags/position.png",
+    "crosshair": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/vip-window/sandbags/crosshair.png",
+    "outcome": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/vip-window/sandbags/outcome.png",
+    "video": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/vip-window/sandbags/tutorial.mp4"
+  }
+}

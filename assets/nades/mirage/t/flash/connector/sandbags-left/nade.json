@@ -1,0 +1,64 @@
+{
+  "id": "mirage-t-flash-connector-sandbags-left",
+  "assetId": "de_mirage/connector-flash-sandbags-left",
+  "map": "de_mirage",
+  "side": "T",
+  "type": "闪",
+  "name": "沙袋投掷拱门瞬爆闪",
+  "landSpot": "Connector / 拱门",
+  "throwSpot": "沙袋左侧",
+  "throwInput": "left",
+  "throwMethod": [
+    "原地投掷"
+  ],
+  "throwMotion": "static",
+  "difficulty": "中等",
+  "tick": "通用",
+  "scenario": "致盲拱门直架 CT，为队伍争夺拱门控制，注意这个瞬爆闪只白直架敌人，进入拱门注意清一下左右两侧贴墙。",
+  "searchAliases": [
+    "拱门闪",
+    "拱门瞬爆闪",
+    "沙袋闪",
+    "沙袋拱门闪",
+    "Connector闪",
+    "Connector flash",
+    "connector"
+  ],
+  "worldPos": {
+    "x": 360.067505,
+    "y": -691.971619,
+    "z": -100.042542
+  },
+  "throwAngles": {
+    "pitch": 3.7465,
+    "yaw": -158.699799,
+    "roll": 0
+  },
+  "landWorldPos": {
+    "x": -663.292664,
+    "y": -826.864685,
+    "z": -200
+  },
+  "landAngles": {
+    "pitch": -1.599488,
+    "yaw": -175.266235,
+    "roll": 0
+  },
+  "files": {
+    "position": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/flash/connector/sandbags-left/position.png",
+    "crosshair": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/flash/connector/sandbags-left/crosshair.png",
+    "outcome": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/flash/connector/sandbags-left/outcome.png",
+    "video": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/flash/connector/sandbags-left/tutorial.mp4",
+    "effectsDir": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/flash/connector/sandbags-left/effects"
+  },
+  "processing": {
+    "zoomPercent": 37.5,
+    "zoomOffsetX": 0,
+    "zoomOffsetY": 0,
+    "videoFocusTime": null,
+    "videoZoom": 1.85,
+    "videoHold": 1,
+    "videoTransition": 0.35,
+    "effectTransition": 0.2
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "mirage-t-smoke-window-spawn-2",
+  "assetId": "de_mirage/vip-fast-smoke-spawn-2",
+  "map": "de_mirage",
+  "side": "T",
+  "type": "烟",
+  "name": "第二出生位 VIP 快烟",
+  "landSpot": "Window / 警家窗口",
+  "throwSpot": "T 第二出生位",
+  "throwInput": "left",
+  "throwMethod": ["W+跳投"],
+  "throwMotion": "static",
+  "difficulty": "简单",
+  "tolerance": "高",
+  "tick": "通用",
+  "scenario": "封锁 VIP 窗口，为队伍争夺中路控制。",
+  "spawns": [2],
+  "searchAliases": ["VIP烟", "Window烟", "2号出生位烟", "VIP快烟", "快烟", "Window", "vip"],
+  "worldPos": { "x": 1296, "y": 32, "z": -104 },
+  "throwAngles": { "pitch": 0, "yaw": 140.999908, "roll": 0 },
+  "landWorldPos": { "x": -1189.499634, "y": -630.647217, "z": -104 },
+  "landAngles": { "pitch": 0.660104, "yaw": -0.225719, "roll": 0 },
+  "files": {
+    "position": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/vip-window/spawn-2/position.png",
+    "crosshair": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/vip-window/spawn-2/crosshair.png",
+    "outcome": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/vip-window/spawn-2/outcome.png",
+    "video": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/vip-window/spawn-2/tutorial.mp4"
+  }
+}
