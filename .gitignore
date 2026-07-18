@@ -1,6 +1,7 @@
 .DS_Store
 .idea/
 personal/screenshots/
+assets/nades/**/_intake/
 catalog/gallery.html
 catalog/assets.json
 catalog/maps.json

@@ -1,0 +1,29 @@
+{
+  "id": "mirage-t-smoke-mid-crossing-wall-corner",
+  "assetId": "de_mirage/mid-crossing-smoke-wall-corner",
+  "map": "de_mirage",
+  "side": "T",
+  "type": "烟",
+  "name": "匪家墙角中路过点烟",
+  "landSpot": "Top Mid / 中路过点",
+  "throwSpot": "T Spawn / 匪家墙角",
+  "throwInput": "left",
+  "throwMethod": ["原地投掷"],
+  "throwMotion": "static",
+  "difficulty": "简单",
+  "tolerance": "高",
+  "tick": "通用",
+  "scenario": "遮断匪口前方的中路长枪线，帮助队友安全通过匪口并建立中路控制。",
+  "searchAliases": ["中路过点烟", "匪口过点烟", "匪家过点烟", "中路烟", "Top Mid 烟", "墙角过点烟"],
+  "worldPos": { "x": 1422.96875, "y": -367.965332, "z": -104 },
+  "throwAngles": { "pitch": 7.033605, "yaw": -58.224712, "roll": 0 },
+  "landWorldPos": { "x": -276.238159, "y": -483.042969, "z": -101.118469 },
+  "landAngles": { "pitch": -1.133926, "yaw": -163.597107, "roll": 0 },
+  "files": {
+    "position": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/mid-crossing/wall-corner/position.png",
+    "crosshair": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/mid-crossing/wall-corner/crosshair.png",
+    "outcome": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/mid-crossing/wall-corner/outcome.png",
+    "video": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/mid-crossing/wall-corner/tutorial.mp4",
+    "effectsDir": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/mid-crossing/wall-corner/effects"
+  }
+}

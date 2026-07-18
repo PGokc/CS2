@@ -1,0 +1,29 @@
+{
+  "id": "mirage-t-smoke-connector-trash-left",
+  "assetId": "de_mirage/connector-smoke-trash-left",
+  "map": "de_mirage",
+  "side": "T",
+  "type": "烟",
+  "name": "垃圾桶左侧拱门烟",
+  "landSpot": "Connector / 拱门",
+  "throwSpot": "T Spawn / 匪家垃圾桶左侧",
+  "throwInput": "left",
+  "throwMethod": ["原地投掷"],
+  "throwMotion": "static",
+  "difficulty": "简单",
+  "tolerance": "中",
+  "tick": "通用",
+  "scenario": "封住拱门方向视野，帮助队伍争夺中路并降低拱门直架压力。",
+  "searchAliases": ["拱门烟", "中路拱门烟", "Connector烟", "Connector smoke", "垃圾桶左侧烟"],
+  "worldPos": { "x": 1422.96875, "y": 36.46579, "z": -104 },
+  "throwAngles": { "pitch": 3.024035, "yaw": 89.846321, "roll": 0 },
+  "landWorldPos": { "x": -663.292664, "y": -826.864685, "z": -200 },
+  "landAngles": { "pitch": -1.599488, "yaw": -175.266235, "roll": 0 },
+  "files": {
+    "position": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/connector/trash-left/position.png",
+    "crosshair": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/connector/trash-left/crosshair.png",
+    "outcome": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/connector/trash-left/outcome.png",
+    "video": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/connector/trash-left/tutorial.mp4",
+    "effectsDir": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/connector/trash-left/effects"
+  }
+}

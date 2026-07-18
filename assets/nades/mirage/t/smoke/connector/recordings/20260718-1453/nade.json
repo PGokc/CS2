@@ -1,0 +1,26 @@
+{
+  "id": "mirage-t-smoke-connector-20260718-1453",
+  "assetId": "de_mirage/connector-smoke-20260718-1453",
+  "map": "de_mirage",
+  "side": "T",
+  "type": "烟",
+  "name": "宫殿花盆拱门烟",
+  "landSpot": "Connector / 拱门",
+  "throwSpot": "Palace / 宫殿花盆旁",
+  "throwInput": "left",
+  "throwMethod": ["原地投掷"],
+  "throwMotion": "static",
+  "difficulty": "中等",
+  "tolerance": "中",
+  "tick": "通用",
+  "scenario": "封住拱门方向视野，降低拱门防守方对中路和 A 点进攻的干扰。",
+  "searchAliases": ["拱门烟", "宫殿拱门烟", "Connector smoke", "花盆烟"],
+  "throwRadar": { "x": 70.1, "y": 47 },
+  "landRadar": { "x": 50.131, "y": 49.6067 },
+  "files": {
+    "position": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/connector/recordings/20260718-1453/position.png",
+    "crosshair": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/connector/recordings/20260718-1453/crosshair.png",
+    "outcome": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/connector/recordings/20260718-1453/outcome.png",
+    "video": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/connector/recordings/20260718-1453/tutorial.mp4"
+  }
+}

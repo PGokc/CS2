@@ -1,0 +1,26 @@
+{
+  "id": "mirage-t-smoke-mid-crossing-20260718-1447",
+  "assetId": "de_mirage/mid-crossing-smoke-20260718-1447",
+  "map": "de_mirage",
+  "side": "T",
+  "type": "烟",
+  "name": "拱门楼梯中路过点烟",
+  "landSpot": "Top Mid / 中路过点",
+  "throwSpot": "Connector / 拱门楼梯",
+  "throwInput": "left",
+  "throwMethod": ["原地投掷"],
+  "throwMotion": "static",
+  "difficulty": "中等",
+  "tolerance": "中",
+  "tick": "通用",
+  "scenario": "从拱门楼梯方向遮断中路过点长枪线，帮助队伍重新建立中路控制。",
+  "searchAliases": ["中路过点烟", "拱门楼梯烟", "Connector smoke", "楼梯过点烟"],
+  "throwRadar": { "x": 50.1, "y": 49.6 },
+  "landRadar": { "x": 57.6907, "y": 42.8915 },
+  "files": {
+    "position": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/mid-crossing/recordings/20260718-1447/position.png",
+    "crosshair": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/mid-crossing/recordings/20260718-1447/crosshair.png",
+    "outcome": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/mid-crossing/recordings/20260718-1447/outcome.png",
+    "video": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/mid-crossing/recordings/20260718-1447/tutorial.mp4"
+  }
+}

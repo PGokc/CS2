@@ -9,6 +9,7 @@ const catalogDir = join(root, 'catalog')
 async function walk(dir) {
   const result = []
   for (const entry of await readdir(dir, { withFileTypes: true })) {
+    if (entry.name === '_intake' || entry.name === '.DS_Store') continue
     const path = join(dir, entry.name)
     if (entry.isDirectory()) result.push(...await walk(path))
     else if (['.png', '.svg'].includes(extname(entry.name).toLowerCase())) result.push(path)

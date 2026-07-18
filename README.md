@@ -8,6 +8,8 @@
 assets/hud/                CS2 HUD 与 UI SVG
 assets/radar-maps/         标准命名的地图雷达 PNG
 assets/loading-screens/    1920×1080 地图加载实景图
+assets/nades/              已整理的道具四件套、效果视频与结构化 manifest
+assets/nades/**/_intake/   本地录入暂存区，不进入 Git 与素材索引
 personal/screenshots/      个人游戏截图，默认不提交 Git
 catalog/                   素材清单和本地浏览页
 tools/                     索引生成工具
@@ -23,14 +25,15 @@ node tools/build-catalog.mjs
 
 ## Git
 
-PNG 文件体积较大，仓库计划使用 Git LFS 管理 PNG。首次提交二进制文件前，请先安装并启用 Git LFS：
+PNG、MP4 文件体积较大，仓库已使用 Git LFS 管理。首次拉取或提交二进制文件前，请先安装并启用 Git LFS：
 
 ```sh
 git lfs install
 git lfs track "*.png"
+git lfs track "*.mp4"
 ```
 
-个人截图默认由 `.gitignore` 排除。如需同步个人截图，可移除对应规则后使用 Git LFS 管理。
+原始录屏保留在 `personal/screenshots/`，录入过程文件保留在 `_intake/`；两者默认由 `.gitignore` 排除。通过审核的素材应按地图、阵营、道具、落点与投掷变体归档到 `assets/nades/` 的正式语义目录，再由 Git LFS 同步。`recordings/<日期时间>` 用于保存已发布但尚未命名为固定变体的历史录制，避免用 `_intake` 作为长期目录或重复提交原片。
 
 ## 授权
 

@@ -1,0 +1,26 @@
+{
+  "id": "mirage-t-smoke-stairs-20260718-1459",
+  "assetId": "de_mirage/stairs-smoke-20260718-1459",
+  "map": "de_mirage",
+  "side": "T",
+  "type": "烟",
+  "name": "匪家矮墙A楼梯烟",
+  "landSpot": "Stairs / A楼梯",
+  "throwSpot": "T Spawn / 匪家矮墙",
+  "throwInput": "left",
+  "throwMethod": ["原地投掷"],
+  "throwMotion": "static",
+  "difficulty": "简单",
+  "tolerance": "中",
+  "tick": "通用",
+  "scenario": "封住 A 楼梯防守视野，为 A 点爆弹和下包创造空间。",
+  "searchAliases": ["A楼梯烟", "楼梯烟", "Stairs smoke", "矮墙楼梯烟"],
+  "throwRadar": { "x": 90, "y": 40 },
+  "landRadar": { "x": 57, "y": 69 },
+  "files": {
+    "position": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/stairs/recordings/20260718-1459/position.png",
+    "crosshair": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/stairs/recordings/20260718-1459/crosshair.png",
+    "outcome": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/stairs/recordings/20260718-1459/outcome.png",
+    "video": "/Users/huangxianchao/Project/CS2-Asset-Library/assets/nades/mirage/t/smoke/stairs/recordings/20260718-1459/tutorial.mp4"
+  }
+}
